@@ -2,10 +2,10 @@ package txn_test
 
 import (
 	"flag"
-	"gopkg.in/mgo.v2"
-	"gopkg.in/mgo.v2/bson"
-	"gopkg.in/mgo.v2/dbtest"
-	"gopkg.in/mgo.v2/txn"
+	"github.com/ImaBird/mgo.v2"
+	"github.com/ImaBird/mgo.v2/bson"
+	"github.com/ImaBird/mgo.v2/dbtest"
+	"github.com/ImaBird/mgo.v2/txn"
 	. "gopkg.in/check.v1"
 	"math/rand"
 	"time"

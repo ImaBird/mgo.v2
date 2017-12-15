@@ -41,7 +41,7 @@ import (
 	"sync"
 	"time"
 
-	"gopkg.in/mgo.v2/bson"
+	"github.com/ImaBird/mgo.v2/bson"
 )
 
 type Mode int

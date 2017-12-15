@@ -507,7 +507,7 @@ func (d *decoder) readElemTo(out reflect.Value, kind byte) (good bool) {
 	case 0x06: // Undefined (obsolete, but still seen in the wild)
 		in = Undefined
 	case 0x07: // ObjectId
-		in = ObjectId(d.readBytes(12))
+		in = ObjectId(d.readBytes(12)).Hex()
 	case 0x08: // Bool
 		in = d.readBool()
 	case 0x09: // Timestamp
