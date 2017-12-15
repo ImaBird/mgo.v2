@@ -2,7 +2,7 @@ package txn
 
 import (
 	"fmt"
-	"gopkg.in/mgo.v2/bson"
+	"github.com/ImaBird/mgo.v2/bson"
 	. "gopkg.in/check.v1"
 )
 
